@@ -146,7 +146,7 @@ input[type=radio]:checked:before {
 .mg-404-error-txt .mg-404-badg {
   background-color: #16262e;
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   text-transform: uppercase;
   text-align: center;
   padding: 30px 28px;
@@ -180,7 +180,7 @@ input[type=radio]:checked:before {
   text-align: left;
 }
 .mg-404-error-txt .mg-404-txt-search strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 23px;
   line-height: 33px;
   margin-bottom: 10px;
@@ -188,7 +188,7 @@ input[type=radio]:checked:before {
   text-transform: uppercase;
 }
 .mg-404-error-txt .mg-404-txt-search p {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 16px;
 }
 .mg-404-error-txt .mg-404-txt-search .mg-404-search-form input {
@@ -458,7 +458,7 @@ ul.styled-list.list-star li:before {
   content: '\f006';
 }
 .btn {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   border-radius: 1px;
   font-weight: 600;
   border-width: 0;
@@ -574,6 +574,12 @@ ul.styled-list.list-star li:before {
 }
 .header .navbar-collapse.collapse {
   vertical-align: top;
+  display: inline-block !important;
+}
+.contact-nav {
+ float: right;
+}
+.contact-nav-li {
   display: inline-block !important;
 }
 .header.center-content {
@@ -693,7 +699,7 @@ ul.styled-list.list-star li:before {
 .navbar-inverse .navbar-nav > li.open > a:hover,
 .navbar-inverse .navbar-nav > li.open > a:focus,
 .navbar-inverse .navbar-nav > li.open > a:active {
-  color: #fff;
+  color: #145636;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li ul.dropdown-menu {
@@ -1475,7 +1481,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
           transition: background-color 0.3s;
 }
 .mg-room figcaption h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #fff;
   margin: 0;
   font-size: 20px;
@@ -1765,7 +1771,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-feature .mg-feature-icon-title h3 {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 20px;
   color: #16262e;
   font-weight: 400;
@@ -1806,7 +1812,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-light-testimonial .mg-testimonial-slider blockquote footer {
   color: #145636;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-style: italic;
 }
 .mg-light-testimonial .mg-testimonial-slider blockquote footer:before {
@@ -1823,7 +1829,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-testimonial-slider blockquote footer {
   color: #145636;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-style: italic;
 }
 .mg-testimonial-slider blockquote footer:before {
@@ -1900,7 +1906,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-recnt-post .mg-rp-date {
   width: 70px;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 27px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1928,7 +1934,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   margin-top: 10px;
 }
 .mg-recnt-post > h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 22px;
   font-weight: 400;
   margin-top: 0;
@@ -2019,7 +2025,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   display: block;
 }
 .mg-contact-form-input label {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -2077,7 +2083,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   position: relative;
 }
 .mg-single-room-price .mg-srp-inner {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   width: 100px;
   padding: 21px 0px 17px;
   text-align: center;
@@ -2158,7 +2164,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   border-bottom-width: 0;
 }
 .mg-reviews .media .media-body .media-heading {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #16262e;
   font-style: italic;
   font-size: 22px;
@@ -2240,7 +2246,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 .mg-star-rating-title {
   display: inline-block;
   font-size: 16px;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #16262e;
   min-width: 65px;
 }
@@ -2355,7 +2361,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   margin-bottom: 60px;
 }
 .mg-post .mg-post-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   margin-bottom: 15px;
 }
 .mg-post .mg-post-title a {
@@ -2368,7 +2374,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   border-bottom: 1px solid #f2f2f2;
   padding-bottom: 15px;
   margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #96a3a9;
 }
 .mg-post .mg-post-meta span {
@@ -2390,7 +2396,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   color: #145636;
 }
 .mg-post .mg-read-more {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-style: italic;
   font-size: 15px;
 }
@@ -2431,7 +2437,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   list-style: none;
 }
 .mg-widget ul li {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -2467,7 +2473,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   margin-bottom: 70px;
   border-bottom: 1px solid #F2F2F2;
   border-top: 1px solid #F2F2F2;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 16px;
   line-height: 30px;
   color: #16262e;
@@ -2540,7 +2546,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .nav-tabs > li,
 .nav-tabs.nav-justified > li {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-size: 18px;
 }
 .nav-tabs > li > a,
@@ -2906,7 +2912,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-booking-form .nav-tabs > li > a span.mg-bs-tab-num {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-weight: 600;
   color: #16262e;
   vertical-align: middle;
@@ -2977,7 +2983,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   min-height: 100px;
 }
 .mg-book-form-input label {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   font-weight: 400;
   color: #16262e;
   font-size: 16px;
@@ -3015,7 +3021,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   padding: 50px 0 10px;
   font-size: 25px;
   line-height: 35px;
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #fff;
   font-weight: 400;
 }
@@ -3239,7 +3245,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   box-shadow: none;
 }
 .progress .progress-bar .mg-progress-bar-popup {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #16262e;
   font-size: 16px;
   line-height: 30px;
@@ -3249,7 +3255,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   right: 0;
 }
 .progress .progress-bar .mg-progress-bar-left {
-  font-family: "Playfair Display", serif;
+  font-family: "Walter Turncoat";
   color: #16262e;
   font-size: 16px;
   line-height: 30px;
