@@ -22,6 +22,7 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
 	<link href="images/logo.png" rel="icon" type="icon">
+	<link href="css/flickity.css" rel="stylesheet">
 
 
 
@@ -481,16 +482,18 @@
 					
 					
 
-					<div class="flex-gallery">
-						<ul class="mg-gallery" id="mg-gallery">
-							<li><img src="images/gallery-01.png"></li>
-							<li><img src="images/gallery-02.png"></li>
-							<li><img src="images/gallery-05.png"></li>
-							<li><img src="images/gallery-06.png"></li>
-							<li><img src="images/gallery-07.png"></li>
-							<li><img src="images/gallery-08.png"></li>
-						</ul>
+					
 						
+							
+						<!-- Flickity HTML init -->
+						<div class="gallery js-flickity"
+						  data-flickity-options='{ "wrapAround": true }'>
+						  <img class="gallery-cell" src="images/gallery-01.png">
+						  <img class="gallery-cell"></img >
+						  <img class="gallery-cell"></img >
+						  <img class="gallery-cell"></img >
+						  <img class="gallery-cell"></img >
+						</div>
 					</div>
 				</div>
 			</div>
@@ -565,7 +568,7 @@
 						</ul>
 					</div>
 					<div class="col-md-6">
-						<p>&copy; 2015 <a href="http://www.cantothemes.com">CantoThemes</a>. All rights reserved.</p>
+						
 					</div>
 				</div>
 			</div>
@@ -588,6 +591,7 @@
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/jquery.parallax-1.1.3.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/flickity.min.js"></script>
 </body>
 
 </html>
