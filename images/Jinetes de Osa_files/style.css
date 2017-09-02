@@ -1951,7 +1951,9 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   margin-left: 90px;
   margin-bottom: 0;
 }
-
+.mg-gallery-container {
+  position: relative;
+}
 .mg-gallery {
   margin: 0;
   padding: 0;
@@ -1974,11 +1976,11 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
           transition: opacity 0.3s, background-color 0.3s, color 0.3s !important;
 }
 .mg-gallery .owl-controls .owl-buttons div.owl-prev {
-  
+  float: left;
   margin-left: 25px !important;
 }
 .mg-gallery .owl-controls .owl-buttons div.owl-next {
-  
+  float: right;
   margin-right: 25px !important;
 }
 .mg-gallery .owl-controls .owl-buttons div:hover {
@@ -3451,7 +3453,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 .mg-footer-widget .mg-widget-title:after {
   width: 50px;
-  background-color: #145636;
+  background-color: #111d24;
 }
 .mg-footer-social {
   margin: 0;
@@ -4320,48 +4322,17 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 .float-right {
   float: right;
 }
-.activities {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  align-items: flex-start;
-  align-content: flex-start;
-  padding: .5em;
-  
-}
-.activities .header {
-  font-size: 20px;
-  flex: 0 1 100%;
-  text-decoration: underline;
-  padding-bottom: .2em;
-}
-.activities .img {
-  flex-basis: 15%;
-}
-
-.activities .desc {
-  flex-basis: 85%;
-}
-.flex-btn {
+.rainforest {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: flex-start;
 }
-.flex-btn .flex-btn-btn{
-  max-width: 220px;
-  text-align: center;
-  margin-top: 2em;
+.rainforest .header {
+  font-size: 24px;
 }
-
-.flex-gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-gallery .mg-gallery {
-  flex-basis: 50%;
+.rainforest .desc {
+  align-self: flex-end;
 }
