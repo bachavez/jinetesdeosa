@@ -71,7 +71,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="index.html">Home</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resort</a>
 							<ul class="dropdown-menu">
 								<li><a href="404.html">404 Error</a></li>
 								<li><a href="about.html">About Us</a></li>
@@ -86,16 +86,15 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rooms <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rooms</a>
 							<ul class="dropdown-menu">
 								<li><a href="rooms-col-1.html">1 Column</a></li>
 								<li><a href="rooms-col-2.html">2 Column</a></li>
 								<li><a href="rooms-col-3.html">3 Column</a></li>
-								<li><a href="rooms-col-4.html">4 Column</a></li>
-								<li><a href="rooms-single.html">Single Room</a></li>
 							</ul>
 						</li>
-						<li><a href="blog.html">Blog</a></li>
+						<li><a href="rates.html">Activities</a></li>
+						<li><a href="rates.html">Rates</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
@@ -121,73 +120,74 @@
 
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active beactive">
-				<img src="images/slide-1.jpg" alt="...">
+		<div class="carousel-inner"
+		data-flickity-options='{ "wrapAround": true, "autoPlay": 4500 }' role="listbox">
+			<div class="item carousel active beactive">
+				<img class="carousel-cell" src="images/slide-1.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>ROOMS WITH SPECTACULAR OCEAN VIEWS</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-2.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-2.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>CLEAN COMFORTABLE ROOMS WHERE YOUR SATISFACTION IS OUR NUMBER ONE PRIORITY</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-3.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-3.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>On-site full service PADI dive center</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-4.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-4.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>A staff of naturalist guides for hikes to Corcovado National Park and beyond</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-5.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-5.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>PADI scuba diving instructors - Learn to dive! Take your certifaction to the next level</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-6.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-6.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>A full service bar and excellent local cuisine</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-7.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-7.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>The best snorkeling in mainland Costa Rica</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-8.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-8.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
 					<p>Lush tropical rainforest</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="images/slide-9.jpg" alt="...">
+			<div class="item carousel">
+				<img class="carousel-cell" src="images/slide-9.jpg" alt="...">
 				<div class="carousel-caption">
 					<!--<img src="images/stars.png" alt="">-->
 					<h2>We offer</h2>
@@ -262,9 +262,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="mg-sec-title">
-						<h2>Our Rooms</h2>
-					</div>
+
 					<div class="row">
 						<div class="col-sm-4">
 							<figure class="mg-room">
@@ -487,12 +485,13 @@
 							
 						<!-- Flickity HTML init -->
 						<div class="gallery js-flickity"
-						  data-flickity-options='{ "wrapAround": true }'>
-						  <img class="gallery-cell" src="images/gallery-01.png">
-						  <img class="gallery-cell"></img >
-						  <img class="gallery-cell"></img >
-						  <img class="gallery-cell"></img >
-						  <img class="gallery-cell"></img >
+						  data-flickity-options='{ "wrapAround": true, "autoPlay": 2000 }'>
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-1.jpg">
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-2.jpg"></img >
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-3.jpg"></img >
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-4.jpg"></img >
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-5.jpg"></img >
+						  <img class="gallery-cell adventures-gallery" src="images/gallery-6.jpg"></img >
 						</div>
 					</div>
 				</div>
@@ -520,7 +519,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-3 col-md-offset-1">
 						<div class="widget">
 							<h2 class="mg-widget-title">Instagram</h2>
 							<ul class="mg-instagram">
@@ -537,7 +536,7 @@
 						</div>
 					</div>
 				
-					<div class="col-md-4">
+					<div class="col-md-4 col-md-offset-1">
 						<div class="widget">
 							<h2 class="mg-widget-title">Social Media</h2>
 							<p>Tibi alienus possimus nomini legendus pariatur, logikh assidua philosophis expectat occultarum accedit suscipit interrogari
@@ -557,13 +556,13 @@
 		<div class="mg-copyright">
 			<div class="container">
 				<div class="row">
-
+ 
 					<div class="col-md-6">
 						<ul class="mg-footer-nav">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">About</a></li>
 							<li><a href="#">Rooms</a></li>
-							<li><a href="#">Blog</a></li>
+							<li><a href="#">Activities</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
