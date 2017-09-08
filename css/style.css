@@ -4367,7 +4367,7 @@ Edit on
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+
 
 .gallery {
   background: #EEE;
@@ -4406,7 +4406,7 @@ body { font-family: sans-serif; }
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
+
 
 .carousel-cell {
   width: 100%;
@@ -4425,4 +4425,16 @@ body { font-family: sans-serif; }
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+.contact-nav ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-wrap: normal;
+}
+.contact-nav li {
+  float: left;
+  margin-left: 1em;
 }
