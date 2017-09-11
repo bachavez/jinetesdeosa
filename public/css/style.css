@@ -753,7 +753,6 @@ ul.styled-list.list-star li:before {
   border-radius: 1px;
   border-color: #fff !important;
   margin-top: 20px;
-  margin-right: 110px;
   margin-bottom: 21px;
 }
 .navbar-toggle:hover,
@@ -4439,4 +4438,9 @@ Edit on
 .contact-nav li {
   float: left;
   margin-left: 1em;
+}
+@media only screen and (max-width : 1024px) {
+  .contact-nav {
+    display: none;
+  }
 }
