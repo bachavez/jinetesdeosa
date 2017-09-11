@@ -1,5 +1,3 @@
-setTimeout(function() { $('#mti_wfs_colophon').remove() }, 100);
-
 (function($) {
 	"use strict";
 

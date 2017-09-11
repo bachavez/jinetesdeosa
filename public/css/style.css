@@ -921,10 +921,10 @@ ul.styled-list.list-star li:before {
           transform: translate(0, 50%);
 }
 .carousel-caption > h2 {
-  font-family:'Flora ITC W01 Bold' !important;
+  font-family: 'Amaranth', sans-serif;
   color: #fff;
   font-size: 70px;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 15px;
@@ -971,7 +971,8 @@ ul.styled-list.list-star li:before {
   font-size: 40px;
   line-height: 40px;
   font-weight: 300;
-  font-family:'ITC Flora W03 Medium';
+  font-family: 'Amaranth', sans-serif;
+  text-transform: uppercase;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -3535,7 +3536,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     font-size: 55px;
   }
   .carousel-caption > p {
-    font-size: 20px;
+    font-size: 40px;
   }
   .mg-room figcaption h2 {
     -webkit-transform: translate(0, 90px);
@@ -3708,7 +3709,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     font-size: 45px;
   }
   .carousel-caption > p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .navbar-nav > li > a {
     padding: 28px 9px 27px;
@@ -3934,7 +3935,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     font-size: 35px;
   }
   .carousel-caption > p {
-    font-size: 16px;
+    font-size: 25px;
   }
   .header .container {
     position: relative;
@@ -4199,10 +4200,10 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     margin-bottom: 0;
   }
   .carousel-caption > h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .carousel-caption > p {
-    font-size: 14px;
+    font-size: 0px;
     line-height: 23px;
   }
   .carousel-caption > img {
@@ -4249,7 +4250,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     font-size: 50px;
   }
   .mg-boxed .carousel-caption > p {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 28px;
   }
 }
@@ -4427,6 +4428,7 @@ Edit on
   color: white;
 }
 .contact-nav ul {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline;
   list-style-type: none;
   margin: 0;
