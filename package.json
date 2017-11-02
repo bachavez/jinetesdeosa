@@ -12,6 +12,14 @@
     "url": "git+https://github.com/ABracken/HotelJinetesDeOsaUpdated.git"
   },
   "dependencies": {
-    "express": "^4.15.4"
-  }
+    "body": "^5.1.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "parser": "^0.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ABracken/HotelJinetesDeOsaUpdated/issues"
+  },
+  "homepage": "https://github.com/ABracken/HotelJinetesDeOsaUpdated#readme",
+  "license": "ISC"
 }

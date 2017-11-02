@@ -943,7 +943,7 @@ ul.styled-list.list-star li:before {
   display: block;
   width: 120px;
   height: 4px;
-  background-color: #FFC800;
+  background-color: #ffc800;
   position: absolute;
   bottom: 0;
   left: 50%;
